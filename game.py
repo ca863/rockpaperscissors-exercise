@@ -13,7 +13,7 @@ if user_input not in valid_choices:
     print("That is not a valid choice, please try again!")
     user_input = input("Please choose one of: 'rock', 'paper', 'scissors':").lower
 else:
-    print("You chose:", u)
+    print("You chose:", user_input)
 
 
     #figure out how to do loops and 
@@ -21,11 +21,11 @@ else:
 #computer choice (finished)
 
 computer_input = random.choice(valid_choices) #computer randomnly picks rock, paper or scissors
-print("The computer chose: ", computer_input) #prints out the computer's choice
+print("The computer chose:", computer_input) #prints out the computer's choice
 
 #determine the winner, adapted from Slack (finsihed)
 if user_input == computer_input:
-    print("Both players played", user_choice, "It's a tie!")
+    print("Both players played", user_input, "It's a tie!")
 elif user_input == "paper":
     if computer_input == "rock":
         print("Paper covers rock. You won!")
