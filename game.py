@@ -23,7 +23,7 @@ else:
 computer_input = random.choice(valid_choices) #computer randomnly picks rock, paper or scissors
 print("The computer chose: ", computer_input) #prints out the computer's choice
 
-#determine the winner, adapted from Slack
+#determine the winner, adapted from Slack (finsihed)
 if user_input == computer_input:
     print("Both players played", user_choice, "It's a tie!")
 elif user_input == "paper":
@@ -46,3 +46,5 @@ elif user_input == "rock":
 
 #farewell message and option to play the game again?
 print("Thanks for playing. Please play again!")
+user_play_again = input("Do you want to play again? Type 'yes' or 'no'")
+#if yes then replay else print farewwell message
