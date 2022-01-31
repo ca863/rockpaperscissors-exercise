@@ -16,7 +16,6 @@ else:
     print("You chose:", user_input)
 
 
-    #figure out how to do loops and 
 
 #computer choice (finished)
 
@@ -47,4 +46,9 @@ elif user_input == "rock":
 #farewell message and option to play the game again?
 print("Thanks for playing. Please play again!")
 user_play_again = input("Do you want to play again? Type 'yes' or 'no'")
+user_play_again = user_play_again.lower #converts to lower case to encompass all combinations
 #if yes then replay else print farewwell message
+if user_play_again == "yes"
+    RESTART GAME #????         ·
+else:
+    print("See you soon!")
