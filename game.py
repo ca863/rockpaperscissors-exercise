@@ -9,11 +9,15 @@ user_input = user_input.lower() #converts to lower case to encompass all combina
 
 #validate user input
 valid_choices = ["rock","paper","scissors"] #lists out the possible choices
+##if user_input not in valid_choices:
+#    print("That is not a valid choice, please try again!")
+#    user_input = input("Please choose one of: 'rock', 'paper', 'scissors':").lower
+#else:
+#    print("You chose:", user_input)
+
 if user_input not in valid_choices:
     print("That is not a valid choice, please try again!")
-    user_input = input("Please choose one of: 'rock', 'paper', 'scissors':").lower
-else:
-    print("You chose:", user_input)
+    exit()
 
 
 
@@ -44,11 +48,12 @@ elif user_input == "rock":
 #display the results
 
 #farewell message and option to play the game again?
-print("Thanks for playing. Please play again!")
-user_play_again = input("Do you want to play again? Type 'yes' or 'no'")
-user_play_again = user_play_again.lower #converts to lower case to encompass all combinations
-#if yes then replay else print farewwell message
-if user_play_again == "yes"
-    RESTART GAME #????         ·
-else:
-    print("See you soon!")
+#print("Thanks for playing. Please play again!")
+#user_play_again = input("Do you want to play again? Type 'yes' or 'no'")
+#user_play_again = user_play_again.lower #converts to lower case to encompass all combinations
+##if yes then replay else print farewwell message
+#if user_play_again == "yes":
+#    RESTART GAME #????         ·
+#else:
+#    print("See you soon!")
+#
